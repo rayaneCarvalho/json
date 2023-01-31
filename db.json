@@ -1,147 +1,116 @@
 {
-  "home":[
+  "home":{
 
-  ], 
+  },
 
-  "cadastros":[
-      {
-        "empresas": [
-          { "id": 1, "codigo": 1, "cnpj": "11111111111111", "razaoSocial": "Consultoria de Desenvolvimento", "clasTributaria": "Pessoal Jurídica em Geral", "natJuridica": "Sociedade Empresária Limitada", "dataInicio": "2000-05-19", "telefone": "(11) 1111-1111", "celular": "(11) 11111-1111", "email": "gustavo@email.com", "cep": "36090330", "logradouro": "Avenida Rio Branco", "numero": "129", "complemento": "", "bairro": "Centro", "municipio": "Juiz de Fora", "estado": "MG", "pais": "Brasil", "idFuncionario": 1}
-        ]
-      },
-      {
-        "departamentos": [
-          { "id": 1, "codigo": 1, "nome": "Administrativo"},
-          { "id": 2, "codigo": 2, "nome": "Desenvolvimento"},
-          { "id": 3, "codigo": 3, "nome": "Infraestrutura"}
-        ]
-      },
-      {
-        "funcoes": [
-          { "id": 1, "codigo": 1, "nome": "Gerente Administrativo", "idDepartamento": 1},
-          { "id": 2, "codigo": 2, "nome": "Auxiliar Administrativo", "idDepartamento": 1},
-          { "id": 3, "codigo": 3, "nome": "Desenvolvedor", "idDepartamento": 2},
-          { "id": 4, "codigo": 4, "nome": "Auxiliar de Suporte", "idDepartamento": 3}
-        ]
-      },
-      {
-        "funcionarios": [
-          { "id": 1, "matricula": 1, "nome": "Gustavo Mota", "dataNasc": "1997-10-05", "sexo": "M", "estadoCivil": "Solteiro", "raca": "Branca", "escolaridade": "Superior Completo", "telefone": "(11) 1111-1111", "celular": "(11) 11111-1111", "email": "gustavo@email.com", "cpf": "11111111111", "nis": "11111111111", "numCtps": "111111", "serieCtps": "1111", "ufCtps": "MG", "numRg": "11111111", "ufRg": "MG", "orgaoEmissor": "SSP", "numCnh": "11111111111", "dtValidade": "2025-04-03", "categoria": "B", "dtAdmissao": "2016-04-05", "tipoContratoTrabalho": "Contrato de Experiência", "salarioMensal": "1500,00", "idDepartamento": 1, "idFuncao": 1, "regimeTrabalho": "opt1", "regimePrevidenciario": "opt1"},
-          { "id": 2, "matricula": 2, "nome": "Lucas Alves", "dataNasc": "1999-05-07", "sexo": "M", "estadoCivil": "Solteiro", "raca": "Preta", "escolaridade": "Superior Incompleto", "telefone": "(22) 2222-2222", "celular": "(22) 22222-2222", "email": "lucas@email.com", "cpf": "22222222222", "nis": "22222222222", "numCtps": "222222", "serieCtps": "2222", "ufCtps": "MG", "numRg": "22222222", "ufRg": "MG", "orgaoEmissor": "SSP", "numCnh": "22222222222", "dtValidade": "2025-03-04", "categoria": "B", "dtAdmissao": "2009-09-12", "tipoContratoTrabalho": "Contrato de Experiência", "salarioMensal": "1700,00", "idDepartamento": 1, "idFuncao": 2, "regimeTrabalho": "opt1", "regimePrevidenciario": "opt1"},
-          { "id": 3, "matricula": 3, "nome": "Silvana Faceroli", "dataNasc": "1981-12-19", "sexo": "F", "estadoCivil": "Solteiro", "raca": "Branca", "escolaridade": "Doutorado Completo", "telefone": "(33) 3333-3333", "celular": "(33) 33333-3333", "email": "silvana@email.com", "cpf": "33333333333", "nis": "33333333333", "numCtps": "333333", "serieCtps": "3333", "ufCtps": "MG", "numRg": "33333333", "ufRg": "MG", "orgaoEmissor": "SSP", "numCnh": "33333333333", "dtValidade": "2025-08-24", "categoria": "B", "dtAdmissao": "2015-10-01", "tipoContratoTrabalho": "Contrato de Experiência", "salarioMensal": "5000,00", "idDepartamento": 2, "idFuncao": 1, "regimeTrabalho": "opt1", "regimePrevidenciario": "opt1"},
-          { "id": 4, "matricula": 4, "nome": "Hilton Marins", "dataNasc": "1975-04-27", "sexo": "M", "estadoCivil": "Solteiro", "raca": "Parda", "escolaridade": "Superior Completo", "telefone": "(44) 4444-4444", "celular": "(44) 44444-4444", "email": "hilton@email.com", "cpf": "44444444444", "nis": "44444444444", "numCtps": "444444", "serieCtps": "4444", "ufCtps": "MG", "numRg": "44444444", "ufRg": "MG", "orgaoEmissor": "SSP", "numCnh": "44444444444", "dtValidade": "2025-04-03", "categoria": "B", "dtAdmissao": "2019-03-28", "tipoContratoTrabalho": "Contrato de Experiência", "salarioMensal": "1900,00", "idDepartamento": 2, "idFuncao": 2, "regimeTrabalho": "opt1", "regimePrevidenciario": "opt1"},
-          { "id": 5, "matricula": 5, "nome": "Wiiliam Vieira", "dataNasc": "1990-07-03", "sexo": "M", "estadoCivil": "Solteiro", "raca": "Branca", "escolaridade": "Superior Completo", "telefone": "(55)) 5555-5555", "celular": "(55) 55555-5555", "email": "william@email.com", "cpf": "55555555555", "nis": "55555555555", "numCtps": "555555", "serieCtps": "5555", "ufCtps": "MG", "numRg": "155555555", "ufRg": "MG", "orgaoEmissor": "SSP", "numCnh": "55555555555", "dtValidade": "2025-04-09", "categoria": "B", "dtAdmissao": "2019-04-21", "tipoContratoTrabalho": "Contrato de Experiência", "salarioMensal": "2000,00", "idDepartamento": 3, "idFuncao": 1, "regimeTrabalho": "opt1", "regimePrevidenciario": "opt1"}
-        ] 
-      },
-      {
-        "eventos": [
-          { "id": 1, "codigo": 1, "descricao": "Salário Mensal", "baseInss": true, "baseIrrf": true, "baseFgts": true, "eventoFolhaMensal": true, "eventoRescisao": false, "eventoFerias": false, "eventoDecimoTerceiro": false, "fatorMultiplicativo": "1,0"},
-          { "id": 2, "codigo": 2, "descricao": "Vale Transporte", "baseInss": false, "baseIrrf": false, "baseFgts": false, "eventoFolhaMensal": true, "eventoRescisao": false, "eventoFerias": false, "eventoDecimoTerceiro": false, "fatorMultiplicativo": "1,0"},
-          { "id": 3, "codigo": 3, "descricao": "Comissão", "baseInss": true, "baseIrrf": true, "baseFgts": true, "eventoFolhaMensal": true, "eventoRescisao": false, "eventoFerias": false, "eventoDecimoTerceiro": false, "fatorMultiplicativo": "1,0"},
-          { "id": 4, "codigo": 4, "descricao": "13º Rescisão", "baseInss": true, "baseIrrf": false, "baseFgts": true, "eventoFolhaMensal": false, "eventoRescisao": true, "eventoFerias": false, "eventoDecimoTerceiro": false, "fatorMultiplicativo": "1,0"},
-          { "id": 5, "codigo": 5, "descricao": "Férias Proporcionais", "baseInss": false, "baseIrrf": false, "baseFgts": false, "eventoFolhaMensal": false, "eventoRescisao": true, "eventoFerias": false, "eventoDecimoTerceiro": false, "fatorMultiplicativo": "1,0"},
-          { "id": 6, "codigo": 6, "descricao": "13º Salário", "baseInss": true, "baseIrrf": true, "baseFgts": false, "eventoFolhaMensal": false, "eventoRescisao": false, "eventoFerias": false, "eventoDecimoTerceiro": true, "fatorMultiplicativo": "1,0"},
-          { "id": 7, "codigo": 7, "descricao": "Comissão Férias", "baseInss": true, "baseIrrf": true, "baseFgts": true, "eventoFolhaMensal": false, "eventoRescisao": false, "eventoFerias": true, "eventoDecimoTerceiro": false, "fatorMultiplicativo": "1,0"}
-        ]
-      },
-      {
-        "jornadasTrabalho": [
-          { "id": 1, "codigo": 1, "descricao": "Jornada 01", "horEntradaSeg": "08:00", "inicIntervaloSeg": "12:30", "fimIntervaloSeg": "13:30", "horSaidaSeg": "17:00", "horEntradaTer": "08:00", "inicIntervaloTer": "12:30", "fimIntervaloTer": "13:30", "horSaidaTer": "17:00", "horEntradaQua": "08:00", "inicIntervaloQua": "12:30", "fimIntervaloQua": "13:30", "horSaidaQua ": "17:00", "horEntradaQui": "08:00", "inicIntervaloQui": "12:30", "fimIntervaloQui": "13:30", "horSaidaQui": "17:00", "horEntradaSex": "08:00", "inicIntervaloSex": "12:30", "fimIntervaloSex": "13:30", "horSaidaSex": "17:00", "horEntradaSab": "", "inicIntervaloSab": "", "fimIntervaloSab": "", "horSaidaSab": "", "horEntradaDom": "", "inicIntervaloDom": "", "fimIntervaloDom": "", "horSaidaDom": ""},
-          { "id": 2, "codigo": 2, "descricao": "Jornada 02", "horEntradaSeg": "06:00", "inicIntervaloSeg": "11:00", "fimIntervaloSeg": "12:00", "horSaidaSeg": "18:00", "horEntradaTer": "06:00", "inicIntervaloTer": "11:00", "fimIntervaloTer": "12:00", "horSaidaTer": "18:00", "horEntradaQua": "06:00", "inicIntervaloQua": "11:00", "fimIntervaloQua": "12:00", "horSaidaQua ": "18:00", "horEntradaQui": "06:00", "inicIntervaloQui": "11:00", "fimIntervaloQui": "12:00", "horSaidaQui": "18:00", "horEntradaSex": "06:00", "inicIntervaloSex": "11:00", "fimIntervaloSex": "12:00", "horSaidaSex": "18:00", "horEntradaSab": "", "inicIntervaloSab": "", "fimIntervaloSab": "", "horSaidaSab": "", "horEntradaDom": "", "inicIntervaloDom": "", "fimIntervaloDom": "", "horSaidaDom": ""},
-          { "id": 3, "codigo": 3, "descricao": "Jornada 03", "horEntradaSeg": "08:00", "inicIntervaloSeg": "", "fimIntervaloSeg": "", "horSaidaSeg": "12:00", "horEntradaTer": "08:00", "inicIntervaloTer": "", "fimIntervaloTer": "", "horSaidaTer": "12:00", "horEntradaQua": "08:00", "inicIntervaloQua": "", "fimIntervaloQua": "", "horSaidaQua ": "12:00", "horEntradaQui": "08:00", "inicIntervaloQui": "", "fimIntervaloQui": "", "horSaidaQui": "12:00", "horEntradaSex": "08:00", "inicIntervaloSex": "", "fimIntervaloSex": "", "horSaidaSex": "12:00", "horEntradaSab": "", "inicIntervaloSab": "", "fimIntervaloSab": "", "horSaidaSab": "", "horEntradaDom": "", "inicIntervaloDom": "", "fimIntervaloDom": "", "horSaidaDom": ""},
-          { "id": 4, "codigo": 4, "descricao": "Jornada 04", "horEntradaSeg": "09:00", "inicIntervaloSeg": "13:30", "fimIntervaloSeg": "14:30", "horSaidaSeg": "19:00", "horEntradaTer": "09:00", "inicIntervaloTer": "13:30", "fimIntervaloTer": "14:30", "horSaidaTer": "19:00", "horEntradaQua": "09:00", "inicIntervaloQua": "13:30", "fimIntervaloQua": "14:30", "horSaidaQua ": "19:00", "horEntradaQui": "09:00", "inicIntervaloQui": "13:30", "fimIntervaloQui": "14:30", "horSaidaQui": "19:00", "horEntradaSex": "09:00", "inicIntervaloSex": "13:30", "fimIntervaloSex": "14:30", "horSaidaSex": "19:00", "horEntradaSab": "", "inicIntervaloSab": "", "fimIntervaloSab": "", "horSaidaSab": "", "horEntradaDom": "", "inicIntervaloDom": "", "fimIntervaloDom": "", "horSaidaDom": ""},
-          { "id": 5, "codigo": 5, "descricao": "Jornada 05", "horEntradaSeg": "08:00", "inicIntervaloSeg": "12:00", "fimIntervaloSeg": "14:00", "horSaidaSeg": "18:00", "horEntradaTer": "08:00", "inicIntervaloTer": "12:00", "fimIntervaloTer": "14:00", "horSaidaTer": "18:00", "horEntradaQua": "08:00", "inicIntervaloQua": "12:00", "fimIntervaloQua": "14:00", "horSaidaQua ": "18:00", "horEntradaQui": "08:00", "inicIntervaloQui": "12:00", "fimIntervaloQui": "14:00", "horSaidaQui": "18:00", "horEntradaSex": "08:00", "inicIntervaloSex": "12:00", "fimIntervaloSex": "14:00", "horSaidaSex": "17:00", "horEntradaSab": "", "inicIntervaloSab": "", "fimIntervaloSab": "", "horSaidaSab": "", "horEntradaDom": "", "inicIntervaloDom": "", "fimIntervaloDom": "", "horSaidaDom": ""}
-        ]
-      }
+  "cadastros":{
 
-   ],
+    "empresas": [
+      { "id": 1, "codigo": 1, "cnpj": "11111111111111", "razaoSocial": "Consultoria de Desenvolvimento", "clasTributaria": "Pessoal Jurídica em Geral", "natJuridica": "Sociedade Empresária Limitada", "dataInicio": "2000-05-19", "telefone": "(11) 1111-1111", "celular": "(11) 11111-1111", "email": "gustavo@email.com", "cep": "36090330", "logradouro": "Avenida Rio Branco", "numero": "129", "complemento": "", "bairro": "Centro", "municipio": "Juiz de Fora", "estado": "MG", "pais": "Brasil", "idFuncionario": 1}
+    ],
+    "departamentos": [
+      { "id": 1, "codigo": 1, "nome": "Administrativo"},
+      { "id": 2, "codigo": 2, "nome": "Desenvolvimento"},
+      { "id": 3, "codigo": 3, "nome": "Infraestrutura"}
+    ],
+    "funcoes": [
+      { "id": 1, "codigo": 1, "nome": "Gerente Administrativo", "idDepartamento": 1},
+      { "id": 2, "codigo": 2, "nome": "Auxiliar Administrativo", "idDepartamento": 1},
+      { "id": 3, "codigo": 3, "nome": "Desenvolvedor", "idDepartamento": 2},
+      { "id": 4, "codigo": 4, "nome": "Auxiliar de Suporte", "idDepartamento": 3}
+    ],
 
-   "movimentos":[
-          {
-            "alteracoesSalariais": [
-              { "id": 1, "codigo": 1, "idFuncionario": 1, "salarioAtual": "1500,00", "percentAlteracao": "10%", "novoSalario": "1650,00", "dataAlteracao": "2022-05-07", "motivoAlteracao": "Promoção" },
-              { "id": 2, "codigo": 2, "idFuncionario": 2, "salarioAtual": "1700,00", "percentAlteracao": "10%", "novoSalario": "1870,00", "dataAlteracao": "2022-07-09", "motivoAlteracao": "Promoção" },
-              { "id": 3, "codigo": 3, "idFuncionario": 3, "salarioAtual": "5000,00", "percentAlteracao": "10%", "novoSalario": "5500,00", "dataAlteracao": "2022-02-25", "motivoAlteracao": "Promoção" },
-              { "id": 4, "codigo": 4, "idFuncionario": 4, "salarioAtual": "2000,00", "percentAlteracao": "10%", "novoSalario": "2200,00", "dataAlteracao": "2022-10-03", "motivoAlteracao": "Promoção" },
-              { "id": 5, "codigo": 5, "idFuncionario": 5, "salarioAtual": "3400,00", "percentAlteracao": "10%", "novoSalario": "3740,00", "dataAlteracao": "2022-09-01", "motivoAlteracao": "Promoção" }
-            ]
-          },
-          {
-            "alteracoesJornadasTrabalho": [
-              { "id": 1, "codigo": 1, "idJornadaTrabalho": 1, "dataAlteracao": "2020-08-07"},
-              { "id": 2, "codigo": 2, "idJornadaTrabalho": 2, "dataAlteracao": "2019-02-01"},
-              { "id": 3, "codigo": 3, "idJornadaTrabalho": 3, "dataAlteracao": "2018-05-04"},
-              { "id": 4, "codigo": 4, "idJornadaTrabalho": 4, "dataAlteracao": "2022-06-12"},
-              { "id": 5, "codigo": 5, "idJornadaTrabalho": 5, "dataAlteracao": "2019-01-01"}
-            ]
-          },
-          {
-            "faltas": [
-              { "id": 1, "idFuncionarios": 1, "dataInicial": "2018-06-21", "dataFinal": "2018-06-23", "justificativa": "atestadoMedico"},
-              { "id": 2, "idFuncionarios": 2, "dataInicial": "2020-07-04", "dataFinal": "2020-07-18", "justificativa": "atestadoMedico"},
-              { "id": 3, "idFuncionarios": 3, "dataInicial": "2017-06-17", "dataFinal": "2017-06-18", "justificativa": "faltaInjustificada"}
-            ]
-          },
-          {
-            "lancamentos": [
-              { "id": 1, "idFuncionarios": [], "valor": "5000,00", "dataInicio": "2018-06-01", "dataFim": "2018-08-31"},
-              { "id": 2, "idEventos": 2, "valor": "1000,00", "dataInicio": "2020-07-01", "dataFim": "2022-01-31"},
-              { "id": 3, "idEventos": 3, "valor": "500,00", "dataInicio": "2017-06-01", "dataFim": "2018-06-30"}
-            ]
-          }
-   ],
+    "funcionarios": [
+      { "id": 1, "matricula": 1, "nome": "Gustavo Mota", "dataNasc": "1997-10-05", "sexo": "M", "estadoCivil": "Solteiro", "raca": "Branca", "escolaridade": "Superior Completo", "telefone": "(11) 1111-1111", "celular": "(11) 11111-1111", "email": "gustavo@email.com", "cpf": "11111111111", "nis": "11111111111", "numCtps": "111111", "serieCtps": "1111", "ufCtps": "MG", "numRg": "11111111", "ufRg": "MG", "orgaoEmissor": "SSP", "numCnh": "11111111111", "dtValidade": "2025-04-03", "categoria": "B", "dtAdmissao": "2016-04-05", "tipoContratoTrabalho": "Contrato de Experiência", "salarioMensal": "1500,00", "idDepartamento": 1, "idFuncao": 1, "regimeTrabalho": "opt1", "regimePrevidenciario": "opt1"},
+      { "id": 2, "matricula": 2, "nome": "Lucas Alves", "dataNasc": "1999-05-07", "sexo": "M", "estadoCivil": "Solteiro", "raca": "Preta", "escolaridade": "Superior Incompleto", "telefone": "(22) 2222-2222", "celular": "(22) 22222-2222", "email": "lucas@email.com", "cpf": "22222222222", "nis": "22222222222", "numCtps": "222222", "serieCtps": "2222", "ufCtps": "MG", "numRg": "22222222", "ufRg": "MG", "orgaoEmissor": "SSP", "numCnh": "22222222222", "dtValidade": "2025-03-04", "categoria": "B", "dtAdmissao": "2009-09-12", "tipoContratoTrabalho": "Contrato de Experiência", "salarioMensal": "1700,00", "idDepartamento": 1, "idFuncao": 2, "regimeTrabalho": "opt1", "regimePrevidenciario": "opt1"},
+      { "id": 3, "matricula": 3, "nome": "Silvana Faceroli", "dataNasc": "1981-12-19", "sexo": "F", "estadoCivil": "Solteiro", "raca": "Branca", "escolaridade": "Doutorado Completo", "telefone": "(33) 3333-3333", "celular": "(33) 33333-3333", "email": "silvana@email.com", "cpf": "33333333333", "nis": "33333333333", "numCtps": "333333", "serieCtps": "3333", "ufCtps": "MG", "numRg": "33333333", "ufRg": "MG", "orgaoEmissor": "SSP", "numCnh": "33333333333", "dtValidade": "2025-08-24", "categoria": "B", "dtAdmissao": "2015-10-01", "tipoContratoTrabalho": "Contrato de Experiência", "salarioMensal": "5000,00", "idDepartamento": 2, "idFuncao": 1, "regimeTrabalho": "opt1", "regimePrevidenciario": "opt1"},
+      { "id": 4, "matricula": 4, "nome": "Hilton Marins", "dataNasc": "1975-04-27", "sexo": "M", "estadoCivil": "Solteiro", "raca": "Parda", "escolaridade": "Superior Completo", "telefone": "(44) 4444-4444", "celular": "(44) 44444-4444", "email": "hilton@email.com", "cpf": "44444444444", "nis": "44444444444", "numCtps": "444444", "serieCtps": "4444", "ufCtps": "MG", "numRg": "44444444", "ufRg": "MG", "orgaoEmissor": "SSP", "numCnh": "44444444444", "dtValidade": "2025-04-03", "categoria": "B", "dtAdmissao": "2019-03-28", "tipoContratoTrabalho": "Contrato de Experiência", "salarioMensal": "1900,00", "idDepartamento": 2, "idFuncao": 2, "regimeTrabalho": "opt1", "regimePrevidenciario": "opt1"},
+      { "id": 5, "matricula": 5, "nome": "Wiiliam Vieira", "dataNasc": "1990-07-03", "sexo": "M", "estadoCivil": "Solteiro", "raca": "Branca", "escolaridade": "Superior Completo", "telefone": "(55)) 5555-5555", "celular": "(55) 55555-5555", "email": "william@email.com", "cpf": "55555555555", "nis": "55555555555", "numCtps": "555555", "serieCtps": "5555", "ufCtps": "MG", "numRg": "155555555", "ufRg": "MG", "orgaoEmissor": "SSP", "numCnh": "55555555555", "dtValidade": "2025-04-09", "categoria": "B", "dtAdmissao": "2019-04-21", "tipoContratoTrabalho": "Contrato de Experiência", "salarioMensal": "2000,00", "idDepartamento": 3, "idFuncao": 1, "regimeTrabalho": "opt1", "regimePrevidenciario": "opt1"}
+    ],
 
-   "calculos":[
-          {
-            "folhaMensal": [
-              { "id": 1, "competencia": "Janeiro de 2021", "dataPagamento": "2021-02-07"},
-              { "id": 1, "competencia": "Fevereiro de 2021", "dataPagamento": "2021-03-07"},
-              { "id": 1, "competencia": "Março de 2021", "dataPagamento": "2021-04-07"},
-              { "id": 1, "competencia": "Abril de 2021", "dataPagamento": "2021-05-07"},
-              { "id": 1, "competencia": "Maio de 2021", "dataPagamento": "2021-06-07"}
-            ]
-          },
-          {
-            "ferias": [
-              { "id": 1, "idFuncionarios": 1, "inicioPeriodoAquisitivo": "2021-05-20", "fimPeriodoAquisitivo": "2022-05-19", "dataInicio": "2022-05-20", "dataFim": "2022-06-19", "quantDias": "30", "dataRetorno": "2022-06-20", "dataPagamento": "2022-05-19"},
-              { "id": 2, "idFuncionarios": 2, "inicioPeriodoAquisitivo": "2021-05-20", "fimPeriodoAquisitivo": "2022-05-19", "dataInicio": "2022-05-20", "dataFim": "2022-06-19", "quantDias": "30", "dataRetorno": "2022-06-20", "dataPagamento": "2022-05-19"},
-              { "id": 3, "idFuncionarios": 3, "inicioPeriodoAquisitivo": "2021-05-20", "fimPeriodoAquisitivo": "2022-05-19", "dataInicio": "2022-05-20", "dataFim": "2022-06-19", "quantDias": "30", "dataRetorno": "2022-06-20", "dataPagamento": "2022-05-19"},
-              { "id": 4, "idFuncionarios": 4, "inicioPeriodoAquisitivo": "2021-05-20", "fimPeriodoAquisitivo": "2022-05-19", "dataInicio": "2022-05-20", "dataFim": "2022-06-19", "quantDias": "30", "dataRetorno": "2022-06-20", "dataPagamento": "2022-05-19"},
-              { "id": 5, "idFuncionarios": 5, "inicioPeriodoAquisitivo": "2021-05-20", "fimPeriodoAquisitivo": "2022-05-19", "dataInicio": "2022-05-20", "dataFim": "2022-06-19", "quantDias": "30", "dataRetorno": "2022-06-20", "dataPagamento": "2022-05-19"}
-            ]
-          },
-          {
-            "decimoTerceiro": [
-              { "id": 1, "competencia": "Dezembro de 2015", "dataPagamento": "2015-12-07", "parcela": true },
-              { "id": 2, "competencia": "Dezembro de 2016", "dataPagamento": "2016-12-07", "parcela": true },
-              { "id": 3, "competencia": "Dezembro de 2017", "dataPagamento": "2017-12-07", "parcela": true },
-              { "id": 4, "competencia": "Dezembro de 2018", "dataPagamento": "2018-12-07", "parcela": true },
-              { "id": 5, "competencia": "Dezembro de 2019", "dataPagamento": "2019-12-07", "parcela": true }
-            ]
-          },
-          {
-            "rescisao": [
-              { "id": 1, "idFuncionarios": 1, "motivo": "op2", "dataRescisao": "2022-05-19", "dataPagamento": "2022-05-25", "saldoFgts": "2000,00", "tipoAviso": "op1", "observacoes": ""},
-              { "id": 2, "idFuncionarios": 2, "motivo": "op2", "dataRescisao": "2022-05-19", "dataPagamento": "2022-05-25", "saldoFgts": "5000,00", "tipoAviso": "op1", "observacoes": ""}
-            ]
-          }
-   ],
+    "eventos": [
+      { "id": 1, "codigo": 1, "descricao": "Salário Mensal", "baseInss": true, "baseIrrf": true, "baseFgts": true, "eventoFolhaMensal": true, "eventoRescisao": false, "eventoFerias": false, "eventoDecimoTerceiro": false, "fatorMultiplicativo": "1,0"},
+      { "id": 2, "codigo": 2, "descricao": "Vale Transporte", "baseInss": false, "baseIrrf": false, "baseFgts": false, "eventoFolhaMensal": true, "eventoRescisao": false, "eventoFerias": false, "eventoDecimoTerceiro": false, "fatorMultiplicativo": "1,0"},
+      { "id": 3, "codigo": 3, "descricao": "Comissão", "baseInss": true, "baseIrrf": true, "baseFgts": true, "eventoFolhaMensal": true, "eventoRescisao": false, "eventoFerias": false, "eventoDecimoTerceiro": false, "fatorMultiplicativo": "1,0"},
+      { "id": 4, "codigo": 4, "descricao": "13º Rescisão", "baseInss": true, "baseIrrf": false, "baseFgts": true, "eventoFolhaMensal": false, "eventoRescisao": true, "eventoFerias": false, "eventoDecimoTerceiro": false, "fatorMultiplicativo": "1,0"},
+      { "id": 5, "codigo": 5, "descricao": "Férias Proporcionais", "baseInss": false, "baseIrrf": false, "baseFgts": false, "eventoFolhaMensal": false, "eventoRescisao": true, "eventoFerias": false, "eventoDecimoTerceiro": false, "fatorMultiplicativo": "1,0"},
+      { "id": 6, "codigo": 6, "descricao": "13º Salário", "baseInss": true, "baseIrrf": true, "baseFgts": false, "eventoFolhaMensal": false, "eventoRescisao": false, "eventoFerias": false, "eventoDecimoTerceiro": true, "fatorMultiplicativo": "1,0"},
+      { "id": 7, "codigo": 7, "descricao": "Comissão Férias", "baseInss": true, "baseIrrf": true, "baseFgts": true, "eventoFolhaMensal": false, "eventoRescisao": false, "eventoFerias": true, "eventoDecimoTerceiro": false, "fatorMultiplicativo": "1,0"}
+    ],
+    "jornadasTrabalho": [
+      { "id": 1, "codigo": 1, "descricao": "Jornada 01", "horEntradaSeg": "08:00", "inicIntervaloSeg": "12:30", "fimIntervaloSeg": "13:30", "horSaidaSeg": "17:00", "horEntradaTer": "08:00", "inicIntervaloTer": "12:30", "fimIntervaloTer": "13:30", "horSaidaTer": "17:00", "horEntradaQua": "08:00", "inicIntervaloQua": "12:30", "fimIntervaloQua": "13:30", "horSaidaQua ": "17:00", "horEntradaQui": "08:00", "inicIntervaloQui": "12:30", "fimIntervaloQui": "13:30", "horSaidaQui": "17:00", "horEntradaSex": "08:00", "inicIntervaloSex": "12:30", "fimIntervaloSex": "13:30", "horSaidaSex": "17:00", "horEntradaSab": "", "inicIntervaloSab": "", "fimIntervaloSab": "", "horSaidaSab": "", "horEntradaDom": "", "inicIntervaloDom": "", "fimIntervaloDom": "", "horSaidaDom": ""},
+      { "id": 2, "codigo": 2, "descricao": "Jornada 02", "horEntradaSeg": "06:00", "inicIntervaloSeg": "11:00", "fimIntervaloSeg": "12:00", "horSaidaSeg": "18:00", "horEntradaTer": "06:00", "inicIntervaloTer": "11:00", "fimIntervaloTer": "12:00", "horSaidaTer": "18:00", "horEntradaQua": "06:00", "inicIntervaloQua": "11:00", "fimIntervaloQua": "12:00", "horSaidaQua ": "18:00", "horEntradaQui": "06:00", "inicIntervaloQui": "11:00", "fimIntervaloQui": "12:00", "horSaidaQui": "18:00", "horEntradaSex": "06:00", "inicIntervaloSex": "11:00", "fimIntervaloSex": "12:00", "horSaidaSex": "18:00", "horEntradaSab": "", "inicIntervaloSab": "", "fimIntervaloSab": "", "horSaidaSab": "", "horEntradaDom": "", "inicIntervaloDom": "", "fimIntervaloDom": "", "horSaidaDom": ""},
+      { "id": 3, "codigo": 3, "descricao": "Jornada 03", "horEntradaSeg": "08:00", "inicIntervaloSeg": "", "fimIntervaloSeg": "", "horSaidaSeg": "12:00", "horEntradaTer": "08:00", "inicIntervaloTer": "", "fimIntervaloTer": "", "horSaidaTer": "12:00", "horEntradaQua": "08:00", "inicIntervaloQua": "", "fimIntervaloQua": "", "horSaidaQua ": "12:00", "horEntradaQui": "08:00", "inicIntervaloQui": "", "fimIntervaloQui": "", "horSaidaQui": "12:00", "horEntradaSex": "08:00", "inicIntervaloSex": "", "fimIntervaloSex": "", "horSaidaSex": "12:00", "horEntradaSab": "", "inicIntervaloSab": "", "fimIntervaloSab": "", "horSaidaSab": "", "horEntradaDom": "", "inicIntervaloDom": "", "fimIntervaloDom": "", "horSaidaDom": ""},
+      { "id": 4, "codigo": 4, "descricao": "Jornada 04", "horEntradaSeg": "09:00", "inicIntervaloSeg": "13:30", "fimIntervaloSeg": "14:30", "horSaidaSeg": "19:00", "horEntradaTer": "09:00", "inicIntervaloTer": "13:30", "fimIntervaloTer": "14:30", "horSaidaTer": "19:00", "horEntradaQua": "09:00", "inicIntervaloQua": "13:30", "fimIntervaloQua": "14:30", "horSaidaQua ": "19:00", "horEntradaQui": "09:00", "inicIntervaloQui": "13:30", "fimIntervaloQui": "14:30", "horSaidaQui": "19:00", "horEntradaSex": "09:00", "inicIntervaloSex": "13:30", "fimIntervaloSex": "14:30", "horSaidaSex": "19:00", "horEntradaSab": "", "inicIntervaloSab": "", "fimIntervaloSab": "", "horSaidaSab": "", "horEntradaDom": "", "inicIntervaloDom": "", "fimIntervaloDom": "", "horSaidaDom": ""},
+      { "id": 5, "codigo": 5, "descricao": "Jornada 05", "horEntradaSeg": "08:00", "inicIntervaloSeg": "12:00", "fimIntervaloSeg": "14:00", "horSaidaSeg": "18:00", "horEntradaTer": "08:00", "inicIntervaloTer": "12:00", "fimIntervaloTer": "14:00", "horSaidaTer": "18:00", "horEntradaQua": "08:00", "inicIntervaloQua": "12:00", "fimIntervaloQua": "14:00", "horSaidaQua ": "18:00", "horEntradaQui": "08:00", "inicIntervaloQui": "12:00", "fimIntervaloQui": "14:00", "horSaidaQui": "18:00", "horEntradaSex": "08:00", "inicIntervaloSex": "12:00", "fimIntervaloSex": "14:00", "horSaidaSex": "17:00", "horEntradaSab": "", "inicIntervaloSab": "", "fimIntervaloSab": "", "horSaidaSab": "", "horEntradaDom": "", "inicIntervaloDom": "", "fimIntervaloDom": "", "horSaidaDom": ""}
+    ]
+  },
+   "movimentos":{
+    "alteracoesSalariais": [
+      { "id": 1, "codigo": 1, "idFuncionario": 1, "salarioAtual": "1500,00", "percentAlteracao": "10%", "novoSalario": "1650,00", "dataAlteracao": "2022-05-07", "motivoAlteracao": "Promoção" },
+      { "id": 2, "codigo": 2, "idFuncionario": 2, "salarioAtual": "1700,00", "percentAlteracao": "10%", "novoSalario": "1870,00", "dataAlteracao": "2022-07-09", "motivoAlteracao": "Promoção" },
+      { "id": 3, "codigo": 3, "idFuncionario": 3, "salarioAtual": "5000,00", "percentAlteracao": "10%", "novoSalario": "5500,00", "dataAlteracao": "2022-02-25", "motivoAlteracao": "Promoção" },
+      { "id": 4, "codigo": 4, "idFuncionario": 4, "salarioAtual": "2000,00", "percentAlteracao": "10%", "novoSalario": "2200,00", "dataAlteracao": "2022-10-03", "motivoAlteracao": "Promoção" },
+      { "id": 5, "codigo": 5, "idFuncionario": 5, "salarioAtual": "3400,00", "percentAlteracao": "10%", "novoSalario": "3740,00", "dataAlteracao": "2022-09-01", "motivoAlteracao": "Promoção" }
+    ], 
+    "alteracoesJornadasTrabalho": [
+      { "id": 1, "codigo": 1, "idJornadaTrabalho": 1, "dataAlteracao": "2020-08-07"},
+      { "id": 2, "codigo": 2, "idJornadaTrabalho": 2, "dataAlteracao": "2019-02-01"},
+      { "id": 3, "codigo": 3, "idJornadaTrabalho": 3, "dataAlteracao": "2018-05-04"},
+      { "id": 4, "codigo": 4, "idJornadaTrabalho": 4, "dataAlteracao": "2022-06-12"},
+      { "id": 5, "codigo": 5, "idJornadaTrabalho": 5, "dataAlteracao": "2019-01-01"}
+    ],
+    "faltas": [
+      { "id": 1, "idFuncionarios": 1, "dataInicial": "2018-06-21", "dataFinal": "2018-06-23", "justificativa": "atestadoMedico"},
+      { "id": 2, "idFuncionarios": 2, "dataInicial": "2020-07-04", "dataFinal": "2020-07-18", "justificativa": "atestadoMedico"},
+      { "id": 3, "idFuncionarios": 3, "dataInicial": "2017-06-17", "dataFinal": "2017-06-18", "justificativa": "faltaInjustificada"}
+    ],   
+    "lancamentos": [
+      { "id": 1, "idFuncionarios": [], "valor": "5000,00", "dataInicio": "2018-06-01", "dataFim": "2018-08-31"},
+      { "id": 2, "idEventos": 2, "valor": "1000,00", "dataInicio": "2020-07-01", "dataFim": "2022-01-31"},
+      { "id": 3, "idEventos": 3, "valor": "500,00", "dataInicio": "2017-06-01", "dataFim": "2018-06-30"}
+    ]    
+  },
 
-   "relatorios":[
-          {
-            "relatorioCadastro": [
-              { "id": 1, "filtro": "opt1", "dataInicio": "2018-06-01", "dataFim": "2018-08-31"},
-              { "id": 2, "filtro": "opt2", "dataInicio": "2018-06-01", "dataFim": "2022-01-31"},
-              { "id": 3, "filtro": "opt3", "dataInicio": "2018-06-01", "dataFim": "2018-06-30"},
-              { "id": 4, "filtro": "opt4", "dataInicio": "2018-06-01", "dataFim": "2018-07-31"}
+   "calculos":{
+    "folhaMensal": [
+      { "id": 1, "competencia": "Janeiro de 2021", "dataPagamento": "2021-02-07"},
+      { "id": 1, "competencia": "Fevereiro de 2021", "dataPagamento": "2021-03-07"},
+      { "id": 1, "competencia": "Março de 2021", "dataPagamento": "2021-04-07"},
+      { "id": 1, "competencia": "Abril de 2021", "dataPagamento": "2021-05-07"},
+      { "id": 1, "competencia": "Maio de 2021", "dataPagamento": "2021-06-07"}
+    ],
+    "ferias": [
+      { "id": 1, "idFuncionarios": 1, "inicioPeriodoAquisitivo": "2021-05-20", "fimPeriodoAquisitivo": "2022-05-19", "dataInicio": "2022-05-20", "dataFim": "2022-06-19", "quantDias": "30", "dataRetorno": "2022-06-20", "dataPagamento": "2022-05-19"},
+      { "id": 2, "idFuncionarios": 2, "inicioPeriodoAquisitivo": "2021-05-20", "fimPeriodoAquisitivo": "2022-05-19", "dataInicio": "2022-05-20", "dataFim": "2022-06-19", "quantDias": "30", "dataRetorno": "2022-06-20", "dataPagamento": "2022-05-19"},
+      { "id": 3, "idFuncionarios": 3, "inicioPeriodoAquisitivo": "2021-05-20", "fimPeriodoAquisitivo": "2022-05-19", "dataInicio": "2022-05-20", "dataFim": "2022-06-19", "quantDias": "30", "dataRetorno": "2022-06-20", "dataPagamento": "2022-05-19"},
+      { "id": 4, "idFuncionarios": 4, "inicioPeriodoAquisitivo": "2021-05-20", "fimPeriodoAquisitivo": "2022-05-19", "dataInicio": "2022-05-20", "dataFim": "2022-06-19", "quantDias": "30", "dataRetorno": "2022-06-20", "dataPagamento": "2022-05-19"},
+      { "id": 5, "idFuncionarios": 5, "inicioPeriodoAquisitivo": "2021-05-20", "fimPeriodoAquisitivo": "2022-05-19", "dataInicio": "2022-05-20", "dataFim": "2022-06-19", "quantDias": "30", "dataRetorno": "2022-06-20", "dataPagamento": "2022-05-19"}
+    ],
+    "decimoTerceiro": [
+      { "id": 1, "competencia": "Dezembro de 2015", "dataPagamento": "2015-12-07", "parcela": true },
+      { "id": 2, "competencia": "Dezembro de 2016", "dataPagamento": "2016-12-07", "parcela": true },
+      { "id": 3, "competencia": "Dezembro de 2017", "dataPagamento": "2017-12-07", "parcela": true },
+      { "id": 4, "competencia": "Dezembro de 2018", "dataPagamento": "2018-12-07", "parcela": true },
+      { "id": 5, "competencia": "Dezembro de 2019", "dataPagamento": "2019-12-07", "parcela": true }
+    ],
+    "rescisao": [
+      { "id": 1, "idFuncionarios": 1, "motivo": "op2", "dataRescisao": "2022-05-19", "dataPagamento": "2022-05-25", "saldoFgts": "2000,00", "tipoAviso": "op1", "observacoes": ""},
+      { "id": 2, "idFuncionarios": 2, "motivo": "op2", "dataRescisao": "2022-05-19", "dataPagamento": "2022-05-25", "saldoFgts": "5000,00", "tipoAviso": "op1", "observacoes": ""}
+    ]     
+  },
+
+   "relatorios":{
+    "relatorioCadastro": [
+      { "id": 1, "filtro": "opt1", "dataInicio": "2018-06-01", "dataFim": "2018-08-31"},
+      { "id": 2, "filtro": "opt2", "dataInicio": "2018-06-01", "dataFim": "2022-01-31"},
+      { "id": 3, "filtro": "opt3", "dataInicio": "2018-06-01", "dataFim": "2018-06-30"},
+      { "id": 4, "filtro": "opt4", "dataInicio": "2018-06-01", "dataFim": "2018-07-31"}
+    ],
+    "relatorioProcesssamento": [
+      { "id": 1, "filtro": "opt1", "dataInicio": "2018-06-01", "dataFim": "2018-08-31"},
+      { "id": 2, "filtro": "opt2", "dataInicio": "2018-06-01", "dataFim": "2022-01-31"}
+    ]
           
-            ]
-          },
-          {
-            "relatorioProcesssamento": [
-              { "id": 1, "filtro": "opt1", "dataInicio": "2018-06-01", "dataFim": "2018-08-31"},
-              { "id": 2, "filtro": "opt2", "dataInicio": "2018-06-01", "dataFim": "2022-01-31"}
-            ]
-          }
-   ]
+  }
 }
