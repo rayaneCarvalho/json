@@ -81,7 +81,7 @@
     { "id": 3, "idFuncionarios": 3, "dataInicial": "2017-06-17", "dataFinal": "2017-06-18", "justificativa": "faltaInjustificada"}
   ],
   "lancamentos": [
-    { "id": 1, "idFuncionarios": [], "valor": "5000,00", "dataInicio": "2018-06-01", "dataFim": "2018-08-31"},
+    { "id": 1, "idEventos": 1, "valor": "5000,00", "dataInicio": "2018-06-01", "dataFim": "2018-08-31"},
     { "id": 2, "idEventos": 2, "valor": "1000,00", "dataInicio": "2020-07-01", "dataFim": "2022-01-31"},
     { "id": 3, "idEventos": 3, "valor": "500,00", "dataInicio": "2017-06-01", "dataFim": "2018-06-30"}
   ],
