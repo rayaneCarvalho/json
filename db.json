@@ -14,13 +14,13 @@
     { "id": 4, "codigo": 4, "nome": "Auxiliar de Suporte", "idDepartamento": 3}
   ],
   "eventos": [
-    { "id": 1, "codigo": 1, "descricao": "Salário Mensal", "baseInss": true, "baseIrrf": true, "baseFgts": true, "eventoFolhaMensal": true, "eventoRescisao": false, "eventoFerias": false, "eventoDecimoTerceiro": false, "fatorMultiplicativo": "1,0"},
-    { "id": 2, "codigo": 2, "descricao": "Vale Transporte", "baseInss": false, "baseIrrf": false, "baseFgts": false, "eventoFolhaMensal": true, "eventoRescisao": false, "eventoFerias": false, "eventoDecimoTerceiro": false, "fatorMultiplicativo": "1,0"},
-    { "id": 3, "codigo": 3, "descricao": "Comissão", "baseInss": true, "baseIrrf": true, "baseFgts": true, "eventoFolhaMensal": true, "eventoRescisao": false, "eventoFerias": false, "eventoDecimoTerceiro": false, "fatorMultiplicativo": "1,0"},
-    { "id": 4, "codigo": 4, "descricao": "13º Rescisão", "baseInss": true, "baseIrrf": false, "baseFgts": true, "eventoFolhaMensal": false, "eventoRescisao": true, "eventoFerias": false, "eventoDecimoTerceiro": false, "fatorMultiplicativo": "1,0"},
-    { "id": 5, "codigo": 5, "descricao": "Férias Proporcionais", "baseInss": false, "baseIrrf": false, "baseFgts": false, "eventoFolhaMensal": false, "eventoRescisao": true, "eventoFerias": false, "eventoDecimoTerceiro": false, "fatorMultiplicativo": "1,0"},
-    { "id": 6, "codigo": 6, "descricao": "13º Salário", "baseInss": true, "baseIrrf": true, "baseFgts": false, "eventoFolhaMensal": false, "eventoRescisao": false, "eventoFerias": false, "eventoDecimoTerceiro": true, "fatorMultiplicativo": "1,0"},
-    { "id": 7, "codigo": 7, "descricao": "Comissão Férias", "baseInss": true, "baseIrrf": true, "baseFgts": true, "eventoFolhaMensal": false, "eventoRescisao": false, "eventoFerias": true, "eventoDecimoTerceiro": false, "fatorMultiplicativo": "1,0"}
+    { "id": 1, "baseInss": true, "baseIrrf": true, "baseFgts": true, "eventoFolhaMensal": true, "eventoRescisao": false, "eventoFerias": false, "eventoDecimoTerceiro": false, "fatorMultiplicativo": "1,0"},
+    { "id": 2, "baseInss": false, "baseIrrf": false, "baseFgts": false, "eventoFolhaMensal": true, "eventoRescisao": false, "eventoFerias": false, "eventoDecimoTerceiro": false, "fatorMultiplicativo": "1,0"},
+    { "id": 3, "baseInss": true, "baseIrrf": true, "baseFgts": true, "eventoFolhaMensal": true, "eventoRescisao": false, "eventoFerias": false, "eventoDecimoTerceiro": false, "fatorMultiplicativo": "1,0"},
+    { "id": 4, "baseInss": true, "baseIrrf": false, "baseFgts": true, "eventoFolhaMensal": false, "eventoRescisao": true, "eventoFerias": false, "eventoDecimoTerceiro": false, "fatorMultiplicativo": "1,0"},
+    { "id": 5, "baseInss": false, "baseIrrf": false, "baseFgts": false, "eventoFolhaMensal": false, "eventoRescisao": true, "eventoFerias": false, "eventoDecimoTerceiro": false, "fatorMultiplicativo": "1,0"},
+    { "id": 6, "baseInss": true, "baseIrrf": true, "baseFgts": false, "eventoFolhaMensal": false, "eventoRescisao": false, "eventoFerias": false, "eventoDecimoTerceiro": true, "fatorMultiplicativo": "1,0"},
+    { "id": 7, "baseInss": true, "baseIrrf": true, "baseFgts": true, "eventoFolhaMensal": false, "eventoRescisao": false, "eventoFerias": true, "eventoDecimoTerceiro": false, "fatorMultiplicativo": "1,0"}
   ],
   "alteracoesSalariais": [
     { "id": 1, "codigo": 1, "idFuncionario": 1, "salarioAtual": "1500,00", "percentAlteracao": "10%", "novoSalario": "1650,00", "dataAlteracao": "2022-05-07", "motivoAlteracao": "Promoção" },
