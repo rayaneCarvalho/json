@@ -50,7 +50,7 @@
     { "id": 4, "matricula": 4, "nome": "Hilton Marins", "dataNasc": "1975-04-27", "sexo": "M", "estadoCivil": "Solteiro", "raca": "Parda", "escolaridade": "Superior Completo", "telefone": "(44) 4444-4444", "celular": "(44) 44444-4444", "email": "hilton@email.com", "cpf": "44444444444", "nis": "44444444444", "numCtps": "444444", "serieCtps": "4444", "ufCtps": "MG", "numRg": "44444444", "ufRg": "MG", "orgaoEmissor": "SSP", "numCnh": "44444444444", "dtValidade": "2025-04-03", "categoria": "B", "dtAdmissao": "2019-03-28", "tipoContratoTrabalho": "Contrato de Experiência", "salarioMensal": "1900,00", "idDepartamento": 2, "idFuncao": 2, "regimeTrabalho": "opt1", "regimePrevidenciario": "opt1"},
     { "id": 5, "matricula": 5, "nome": "Wiiliam Vieira", "dataNasc": "1990-07-03", "sexo": "M", "estadoCivil": "Solteiro", "raca": "Branca", "escolaridade": "Superior Completo", "telefone": "(55)) 5555-5555", "celular": "(55) 55555-5555", "email": "william@email.com", "cpf": "55555555555", "nis": "55555555555", "numCtps": "555555", "serieCtps": "5555", "ufCtps": "MG", "numRg": "155555555", "ufRg": "MG", "orgaoEmissor": "SSP", "numCnh": "55555555555", "dtValidade": "2025-04-09", "categoria": "B", "dtAdmissao": "2019-04-21", "tipoContratoTrabalho": "Contrato de Experiência", "salarioMensal": "2000,00", "idDepartamento": 3, "idFuncao": 1, "regimeTrabalho": "opt1", "regimePrevidenciario": "opt1"}
   ],  
-  "decimoTerceiro": [
+  "decimosTerceiros": [
     { "id": 1, "competencia": "Dezembro de 2015", "dataPagamento": "2015-12-07", "parcela": true },
     { "id": 2, "competencia": "Dezembro de 2016", "dataPagamento": "2016-12-07", "parcela": true },
     { "id": 3, "competencia": "Dezembro de 2017", "dataPagamento": "2017-12-07", "parcela": true },
@@ -64,14 +64,14 @@
     { "id": 4, "idFuncionarios": 4, "inicioPeriodoAquisitivo": "2021-05-20", "fimPeriodoAquisitivo": "2022-05-19", "dataInicio": "2022-05-20", "dataFim": "2022-06-19", "quantDias": "30", "dataRetorno": "2022-06-20", "dataPagamento": "2022-05-19"},
     { "id": 5, "idFuncionarios": 5, "inicioPeriodoAquisitivo": "2021-05-20", "fimPeriodoAquisitivo": "2022-05-19", "dataInicio": "2022-05-20", "dataFim": "2022-06-19", "quantDias": "30", "dataRetorno": "2022-06-20", "dataPagamento": "2022-05-19"}
   ],
-  "folhaMensal": [
+  "folhasMensais": [
     { "id": 1, "competencia": "Janeiro de 2021", "dataPagamento": "2021-02-07"},
     { "id": 2, "competencia": "Fevereiro de 2021", "dataPagamento": "2021-03-07"},
     { "id": 3, "competencia": "Março de 2021", "dataPagamento": "2021-04-07"},
     { "id": 4, "competencia": "Abril de 2021", "dataPagamento": "2021-05-07"},
     { "id": 5, "competencia": "Maio de 2021", "dataPagamento": "2021-06-07"}
   ],
-  "rescisao": [
+  "rescisoes": [
     { "id": 1, "idFuncionarios": 1, "motivo": "op2", "dataRescisao": "2022-05-19", "dataPagamento": "2022-05-25", "saldoFgts": "2000,00", "tipoAviso": "op1", "observacoes": ""},
     { "id": 2, "idFuncionarios": 2, "motivo": "op2", "dataRescisao": "2022-05-19", "dataPagamento": "2022-05-25", "saldoFgts": "5000,00", "tipoAviso": "op1", "observacoes": ""}
   ],
@@ -85,14 +85,14 @@
     { "id": 2, "idEventos": 2, "valor": "1000,00", "dataInicio": "2020-07-01", "dataFim": "2022-01-31"},
     { "id": 3, "idEventos": 3, "valor": "500,00", "dataInicio": "2017-06-01", "dataFim": "2018-06-30"}
   ],
-  "relatorioCadastro": [
+  "relatoriosCadastros": [
     { "id": 1, "filtro": "opt1", "dataInicio": "2018-06-01", "dataFim": "2018-08-31"},
     { "id": 2, "filtro": "opt2", "dataInicio": "2018-06-01", "dataFim": "2022-01-31"},
     { "id": 3, "filtro": "opt3", "dataInicio": "2018-06-01", "dataFim": "2018-06-30"},
     { "id": 4, "filtro": "opt4", "dataInicio": "2018-06-01", "dataFim": "2018-07-31"}
 
   ],
-  "relatorioProcesssamento": [
+  "relatoriosProcesssamentos": [
     { "id": 1, "filtro": "opt1", "dataInicio": "2018-06-01", "dataFim": "2018-08-31"},
     { "id": 2, "filtro": "opt2", "dataInicio": "2018-06-01", "dataFim": "2022-01-31"}
   ]
